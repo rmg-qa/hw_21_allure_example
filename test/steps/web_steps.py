@@ -5,7 +5,7 @@ import pytest
 import allure
 
 this_path = os.path.dirname(os.path.realpath(__file__))
-index_html_path = os.path.join(this_path, "../resource/index.html");
+index_html_path = os.path.join(this_path, "../resource/index.html")
 
 
 @allure.step("Starting web driver")
